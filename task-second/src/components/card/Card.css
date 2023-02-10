@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    max-width: 270px;
+    height: 500px;
+    min-height: 470px;
+    background-color:rgb(248, 229, 180);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.318);
+    transition: 0.5s;
+    margin: 1%;
+}
+
+.information,
+.img {
+    margin: 5%; 
+}
+
+.information {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 8px rgba(63, 164, 99, 0.535);
+    transform: scale(1.04);
+}

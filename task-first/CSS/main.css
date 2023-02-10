@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: large;
+    transition: all 0.2s ease;
+}
+
+body {
+    background-image: url(/img/1668493292_3-13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.form {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    width: 550px;
+    height: 250px;
+    border-radius: 100px;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+.form--registration {
+    background: #FFFFFF;
+}
+
+.form--authorization {
+    background: #FFFFFF;
+    height: 200px;
+}
+
+.line {
+    border: 3px solid #F6EBC3;
+    border-radius: 100px;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btn--registration { 
+    margin-top: 7%;
+    margin-right: -10%;
+}
+
+.img-btn-reg {
+    width: 175px;
+    border-radius: 100px;
+}
+
+.img-btn-reg:hover {
+    transform: scale(1.2);
+    background-color:rgb(248, 229, 180);
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.318);
+}
+
+.btn--registration.login {
+    margin-top: 3%;
+}
+
+.btn--sign-in {
+    margin-right: 60%;
+    margin-top: 37%;
+    background: #CFC6A8;
+    border-radius: 100px;
+    padding: 1%;
+    width: 20%;
+}
+
+.btn--sign-up {
+    margin-right: 30%;
+    margin-top: 37%;
+    background: #CFC6A8;
+    border-radius: 100px;
+    padding: 1%;
+    width: 20%;
+}
+
+.input {
+    position: absolute;
+    border: 0;
+    outline: none;
+}
+
+.input--username {
+    margin-top: 10%;
+    margin-left: 10%;
+    top: -10%;
+    width: 65%;
+}
+
+.input--email {
+    margin-top: 21%;
+    margin-left: 10%;
+    top: -10%;
+    width: 65%;
+}
+
+.input--password {
+    margin-top: 32%;
+    margin-left: 10%;
+    top: -10%;
+    width: 65%;
+}
+
+.input--username.login {
+    margin-top: 11%;
+}
+
+.input--password.login {
+    margin-top: 24%;
+}
+
+.line.login {
+    margin-top: 12%;
+}
+
+.btn--sign-in.login, .btn--sign-up.login {
+ margin-top: 28.5%;
+}
+
+.btn--sign-in:hover a, .btn--sign-in:hover {
+    background-color: rgb(112, 116, 60);
+    border-radius: 100px;
+    color:rgb(255, 255, 255);
+}
+
+.btn--sign-up:hover a, .btn--sign-up:hover {
+    background-color: rgb(112, 116, 60);
+    border-radius: 100px;
+    color:rgb(255, 255, 255);
+}
+
+

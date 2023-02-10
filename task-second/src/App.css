@@ -1,0 +1,17 @@
+body {
+  background: url(./images/1668493292_3-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  flex-wrap: wrap;
+  height: 50%;
+}
